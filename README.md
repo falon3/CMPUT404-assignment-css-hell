@@ -1,3 +1,9 @@
+Part 1 HTML changes:  removed inline css styling and added the following line to include my css file
+                     
+                     < link rel="stylesheet" type="text/css" href="oldstyle.css" > 
+
+
+
 Assignment: CSS Hell
 ====================
 
