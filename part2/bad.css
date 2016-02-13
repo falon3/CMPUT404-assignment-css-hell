@@ -1,5 +1,18 @@
 h1 { }
 
+  nav {
+  	position: fixed;
+  	left: 0;
+  	top: 0;
+  	bottom: 0;
+  	background: #ffd700;
+  	width: 180px;
+  	padding: 10px;
+    color: #2F4F4F
+  }
+  
+
+
 div.text{
 	width: 90%;
 	padding-right: 20px;
@@ -12,6 +25,7 @@ div.text{
 div#leftside{
 	float: left;
 	width: 40%;
+    text-align: left;
 	
 }
 
@@ -27,7 +41,6 @@ div#rightside{
 	
 	text-align: left;
 	margin-top: 1.8em; 
-	margin-left: 35%;
 	margin-right: 8%;
 	padding-right: 0.5em;
 	margin-bottom: 1.8em;
@@ -60,15 +73,22 @@ div.darkBG {
 
 img {
 	max-height: 30em;
+    max-width: 30em;
 	position: relative;
 	right: 10%;
-	margin-left: 15%;
+	margin-left: 25%;
 	border: 0.7em solid;
 	border-color: #afafbf;
     float:left;
 }
-
+bottom{
+    
+    bottom:0;
+}
 
 body {
-	background-color: #f0f4f5;
+    background-image: linear-gradient( 
+      blue, #f0f4f5);
+	 
 }
+
